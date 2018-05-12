@@ -14,15 +14,6 @@ May 2018, Berlin
 
 ## Timeline
 
-<!--
- When        | What
--------------|------------------
- Oct '17     | CG formed by Credibility Coalition folks
- Nov '17     | Inital meeting at TPAC
- Mar '18     | Google announces support
- Apr '18     | Weekly meetings start
--->
-
 * Formed fall 2017 by Credibility Coalition folks
 * Initial meetings at TPAC
 * Started regular meetings last month
@@ -136,7 +127,7 @@ See: [Int'l Fact-Checking Network](https://www.poynter.org/channels/fact-checkin
 Help people maintain and use their trust networks
 
 * Better human/machine collaboration around trust
-* Allow end-users to use their preferred on trust networks
+* Allow end-users to use their preferred trust networks
 * Help users track quality of sources
 * Bootstrap from: contacts?  followers?  co-authoring?
 
