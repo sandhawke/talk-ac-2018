@@ -12,7 +12,16 @@ May 2018, Berlin
 
 ![](people-2018-04-15-850.png)
 
-## Progress
+## Timeline
+
+<!--
+ When        | What
+-------------|------------------
+ Oct '17     | CG formed by Credibility Coalition folks
+ Nov '17     | Inital meeting at TPAC
+ Mar '18     | Google announces support
+ Apr '18     | Weekly meetings start
+-->
 
 * Formed fall 2017 by Credibility Coalition folks
 * Initial meetings at TPAC
@@ -70,8 +79,9 @@ but:
 
 * Establish common vocabularies (schemas)
     * for sharing data on the web
-    * relevant to credibility assessment
-    * (schema.org is accepted in news industry)
+    * ... relevant to credibility assessment
+    * schema.org is accepted in news industry
+    * ... and some major platforms
 
 _What might folks share <br />
 that will help others know <br /> what to trust?_
@@ -97,7 +107,7 @@ Risks:
 * impact of false positives/negatives
 * gameability arms race, like SEO
 
-Early draft at <https://credweb.org/cciv>
+Early draft (from CredCo) at <https://credweb.org/cciv>
 </div>
 
 ## Project Area 2: Corroboration
@@ -107,7 +117,7 @@ Early draft at <https://credweb.org/cciv>
 Identify claims in content; check them against evidence
 
 See: [Int'l Fact-Checking Network](https://www.poynter.org/channels/fact-checking),
-[ClaimReview](https://schema.org/ClaimReview)
+[ClaimReview](https://schema.org/ClaimReview), [RelatedFactChecks](http://relatedfactchecks.org/)
 
 * Input-Side (Helping Fact-Checkers)
     * Collaborate on identifying checkable claims
@@ -126,7 +136,7 @@ See: [Int'l Fact-Checking Network](https://www.poynter.org/channels/fact-checkin
 Help people maintain and use their trust networks
 
 * Better human/machine collaboration around trust
-* Allow end-users to pick their roots of trust network
+* Allow end-users to use their preferred on trust networks
 * Help users track quality of sources
 * Bootstrap from: contacts?  followers?  co-authoring?
 
@@ -145,7 +155,7 @@ Help folks self-report data impacting credibility (in some context)
 
 _Examples:_ disclosing business model, investors, jurisdiction
 
-* Publishers use structured markup in self-labeling themselves and their content, intended to highlight what makes them credible
+* Publishers use structured markup in labeling themselves and their content, intended to highlight what makes them credible
 * See <https://theTrustProject.org/>
 
 Risks:
@@ -159,9 +169,10 @@ Risks:
 
 * Researchers (DFKI, MIT, Indiana, ...)
 * Small vendors (Hypothes.is, Meedan, FactsMission, ...)
-* News Media (AP, BBC, ...)
+* News Media (AP/IPTC, BBC, ...)
 * Search/NewsFeed Platforms (Google, Facebook, Bing, ...)
 * Trust-related businesses (AirBnB, NIC.br, ...)
+* Liaison (CredCo, Tech & Check, IEEE P7011, ...)
 * Broader community
 
 San Francisco meeting, end of July
