@@ -7,19 +7,19 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="./reveal.js-3.6.0/css/reveal.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/reveal.css">
   <style type="text/css">code{white-space: pre;}</style>
-  <link rel="stylesheet" href="./reveal.js-3.6.0/css/theme/dk-light2.min.css" id="theme">
+  <link rel="stylesheet" href="./theme.css" id="theme">
   <!-- Printing and PDF exports -->
   <script>
     var link = document.createElement( 'link' );
     link.rel = 'stylesheet';
     link.type = 'text/css';
-    link.href = window.location.search.match( /print-pdf/gi ) ? './reveal.js-3.6.0/css/print/pdf.css' : './reveal.js-3.6.0/css/print/paper.css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/print/pdf.css' : 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/print/paper.css';
     document.getElementsByTagName( 'head' )[0].appendChild( link );
   </script>
   <!--[if lt IE 9]>
-  <script src="./reveal.js-3.6.0/lib/js/html5shiv.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/lib/js/html5shiv.js"></script>
   <![endif]-->
 </head>
 <body>
@@ -27,14 +27,17 @@
     <div class="slides">
 
 
-<section id="update-on-credible-web-cg" class="slide level2">
-<h2>Update on Credible Web CG</h2>
+<section id="a-more-trustworthy-web" class="slide level2">
+<h2>A More Trustworthy Web?</h2>
 <div style="float:right; text-align: right;">
 <p>Sandro Hawke, W3C Fellow<br /> <mark>sandro@w3.org</mark></p>
 </div>
 <div style="float:left; text-align:left">
 <p>For W3C AC Meeting<br /> May 2018, Berlin</p>
 </div>
+</section>
+<section id="credible-web-cg" class="slide level2">
+<h2>Credible Web CG</h2>
 <figure>
 <img src="people-2018-04-15-850.png" />
 </figure>
@@ -52,42 +55,6 @@
 <section id="framing-the-problem" class="slide level2">
 <h2>Framing the Problem</h2>
 <p>Can we shift the Web to empower end users<br /> in their ongoing efforts<br /> to decide which web content is trustworthy<br /> and to avoid being misled or deceived?</p>
-</section>
-<section id="out-of-scope-1" class="slide level2">
-<h2>Out of scope 1</h2>
-<div style="text-align: left">
-<p>We won't be <mark>identifying &quot;legitimate&quot; content providers</mark></p>
-<p>We're not going to:</p>
-<ul>
-<li>decide who gets their content seen</li>
-<li>set standards for making that decision</li>
-<li>develop tech for whitelists/blacklists beyond end-user control</li>
-</ul>
-<p>because:</p>
-<ul>
-<li>Political polarization would make consensus unlikely</li>
-<li>Even within a community, the lines are not clear</li>
-<li>Centralizes power, could turn into censorship</li>
-<li>Would likely diminish the smaller voices (anti-web)</li>
-</ul>
-</div>
-</section>
-<section id="out-of-scope-2" class="slide level2">
-<h2>Out of scope 2</h2>
-<p>We won't <mark>build an AI to decide what's trustworthy</mark></p>
-<div style="text-align: left">
-
-<p>Because:</p>
-<ul>
-<li>Unclear if it's possible without superhuman AI</li>
-<li>Imperfect systems might make folks even more vulnerable</li>
-</ul>
-<p>but:</p>
-<ul>
-<li>Hybrid systems (humans in the loop) can be great</li>
-<li>AI-based personal tools (eg spam filters) are good</li>
-<li>We'll help ecosystem for the training data</li>
-</ul>
 </section>
 <section id="incremental-approach" class="slide level2">
 <h2>Incremental approach</h2>
@@ -189,11 +156,50 @@
 <p>More at <mark>https://credweb.org</mark></p>
 <p>These slides at <a href="http://hawke.org/talk-ac-2018" class="uri">http://hawke.org/talk-ac-2018</a></p>
 </section>
+<section id="bonus-what-were-not-doing" class="slide level2">
+<h2>Bonus: What We're <mark>Not</mark> Doing</h2>
+</section>
+<section id="out-of-scope-1" class="slide level2">
+<h2>Out of scope 1</h2>
+<div style="text-align: left">
+<p>We won't be <mark>identifying &quot;legitimate&quot; content providers</mark></p>
+<p>We're not going to:</p>
+<ul>
+<li>decide who gets their content seen</li>
+<li>set standards for making that decision</li>
+<li>develop tech for whitelists/blacklists beyond end-user control</li>
+</ul>
+<p>because:</p>
+<ul>
+<li>Political polarization would make consensus unlikely</li>
+<li>Even within a community, the lines are not clear</li>
+<li>Centralizes power, could turn into censorship</li>
+<li>Would likely diminish the smaller voices (anti-web)</li>
+</ul>
+</div>
+</section>
+<section id="out-of-scope-2" class="slide level2">
+<h2>Out of scope 2</h2>
+<p>We won't <mark>build an AI to decide what's trustworthy</mark></p>
+<div style="text-align: left">
+
+<p>Because:</p>
+<ul>
+<li>Unclear if it's possible without superhuman AI</li>
+<li>Imperfect systems might make folks even more vulnerable</li>
+</ul>
+<p>but:</p>
+<ul>
+<li>Hybrid systems (humans in the loop) can be great</li>
+<li>AI-based personal tools (eg spam filters) are good</li>
+<li>We'll help ecosystem for the training data</li>
+</ul>
+</section>
     </div>
   </div>
 
-  <script src="./reveal.js-3.6.0/lib/js/head.min.js"></script>
-  <script src="./reveal.js-3.6.0/js/reveal.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/lib/js/head.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/js/reveal.js"></script>
 
   <script>
 
@@ -207,9 +213,9 @@
 
         // Optional reveal.js plugins
         dependencies: [
-          { src: './reveal.js-3.6.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-          { src: './reveal.js-3.6.0/plugin/zoom-js/zoom.js', async: true },
-              { src: './reveal.js-3.6.0/plugin/notes/notes.js', async: true }
+          { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/zoom-js/zoom.js', async: true },
+              { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/notes/notes.js', async: true }
         ]
       });
     </script>

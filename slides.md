@@ -1,5 +1,5 @@
 
-## Update on Credible Web CG
+## A More Trustworthy Web?
 
 <div style="float:right; text-align: right;">
 Sandro Hawke, W3C Fellow<br />
@@ -9,6 +9,8 @@ Sandro Hawke, W3C Fellow<br />
 For W3C AC Meeting<br />
 May 2018, Berlin
 </div>
+
+## Credible Web CG
 
 ![](people-2018-04-15-850.png)
 
@@ -26,45 +28,6 @@ Can we shift the Web to empower end users<br />
 in their ongoing efforts<br />
 to decide which web content is trustworthy<br />
 and to avoid being misled or deceived?
-
-## Out of scope 1
-
-<div style="text-align: left">
-
-We won't be <mark>identifying "legitimate" content providers</mark>
-
-We're not going to:
-
-* decide who gets their content seen
-* set standards for making that decision
-* develop tech for whitelists/blacklists beyond end-user control
-
-because:
-
-* Political polarization would make consensus unlikely
-* Even within a community, the lines are not clear
-* Centralizes power, could turn into censorship
-* Would likely diminish the smaller voices (anti-web)
-
-</div>
-
-## Out of scope 2
-
-We won't <mark>build an AI to decide what's trustworthy</mark>
-
-<div style="text-align: left">
-
-Because:
-
-* Unclear if it's possible without superhuman AI
-* Imperfect systems might make folks even more vulnerable
-
-but:
-
-* Hybrid systems (humans in the loop) can be great
-* AI-based personal tools (eg spam filters) are good
-* We'll help ecosystem for the training data
-
 
 ## Incremental approach
 
@@ -171,3 +134,45 @@ San Francisco meeting, end of July
 More at <mark>https://credweb.org</mark>
 
 These slides at <http://hawke.org/talk-ac-2018>
+
+## Bonus: What We're <mark>Not</mark> Doing
+
+## Out of scope 1
+
+<div style="text-align: left">
+
+We won't be <mark>identifying "legitimate" content providers</mark>
+
+We're not going to:
+
+* decide who gets their content seen
+* set standards for making that decision
+* develop tech for whitelists/blacklists beyond end-user control
+
+because:
+
+* Political polarization would make consensus unlikely
+* Even within a community, the lines are not clear
+* Centralizes power, could turn into censorship
+* Would likely diminish the smaller voices (anti-web)
+
+</div>
+
+## Out of scope 2
+
+We won't <mark>build an AI to decide what's trustworthy</mark>
+
+<div style="text-align: left">
+
+Because:
+
+* Unclear if it's possible without superhuman AI
+* Imperfect systems might make folks even more vulnerable
+
+but:
+
+* Hybrid systems (humans in the loop) can be great
+* AI-based personal tools (eg spam filters) are good
+* We'll help ecosystem for the training data
+
+
